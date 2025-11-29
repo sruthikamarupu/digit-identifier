@@ -20,7 +20,6 @@ CORS(app)
 def identify_number():
 
     f = request.files["image"]
-
     try:
         img_bytes = f.read()
         
